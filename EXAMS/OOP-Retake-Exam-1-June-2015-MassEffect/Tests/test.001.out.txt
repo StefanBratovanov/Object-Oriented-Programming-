@@ -1,0 +1,19 @@
+Created Frigate Normandy
+Created Frigate Qwib-Qwib
+Normandy attacked Qwib-Qwib
+--Qwib-Qwib - Frigate
+-Location: Hades-Gamma
+-Health: 30
+-Shields: 0
+-Damage: 30
+-Fuel: 220.0
+-Enhancements: N/A
+-Projectiles fired: 0
+--Normandy - Frigate
+-Location: Hades-Gamma
+-Health: 60
+-Shields: 50
+-Damage: 30
+-Fuel: 220.0
+-Enhancements: N/A
+-Projectiles fired: 1

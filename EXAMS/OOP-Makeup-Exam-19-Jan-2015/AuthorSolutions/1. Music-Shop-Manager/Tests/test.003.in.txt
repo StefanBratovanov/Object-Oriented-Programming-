@@ -1,0 +1,6 @@
+CreateMicrophone[model:JS-1T;price:272.00;cable:yes;make:JTS]
+CreateElectricGuitar[model:Cadillac 1980;body:Mahogany;price:1140;make:DEAN;color:Classic Black;adapters:0;frets:22;fingerboard:Rosewood]
+CreateBassGuitar[make:Apollo;model:HDQT - 6 TGY;price:540.99;color:Basswood Quilted Veneer;body:Basswood;fingerboard:Rosewood]
+CreateDrums[model:MX-207;price:215.00000008;make:Maxtone;color:Silver;width:50;height:50]
+CreateAcousticGuitar[body:Basswood;model:AFN-15 BS;fingerboard:Rosewood;price:320;make:Aria;color:Sunburst;case:yes;strings:Nylon]
+End

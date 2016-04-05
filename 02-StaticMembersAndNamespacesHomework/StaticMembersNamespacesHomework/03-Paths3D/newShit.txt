@@ -1,0 +1,8 @@
+Point 1, coordinates: (-52, -5, 23)
+Point 2, coordinates: (78, -52, 0)
+Point 3, coordinates: (65, 444, -52)
+Point 4, coordinates: (-52, -5, 23)
+Point 5, coordinates: (78, -52, 0)
+Point 6, coordinates: (65, 444, -52)
+Distanse between points: 1748.06278017236
+

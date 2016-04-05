@@ -1,0 +1,15 @@
+create Frigate Normandy Hades-Gamma
+create Cruiser Alarei Hades-Gamma
+create Dreadnought Sovereign Kepler-Verge
+status-report Alarei
+attack Normandy Alarei
+status-report Alarei
+status-report Normandy
+attack Alarei Normandy
+status-report Normandy
+plot-jump Sovereign Hades-Gamma
+attack Sovereign Alarei
+attack Normandy Sovereign
+system-report Hades-Gamma
+system-report Artemis-Tau
+over

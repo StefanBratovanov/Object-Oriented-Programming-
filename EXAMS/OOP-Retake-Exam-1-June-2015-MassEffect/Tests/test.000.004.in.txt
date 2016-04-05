@@ -1,0 +1,9 @@
+create Dreadnought Reaper Artemis-Tau
+status-report Reaper
+plot-jump Reaper Hades-Gamma
+plot-jump Reaper Artemis-Tau
+plot-jump Reaper Kepler-Verge
+plot-jump Reaper Artemis-Tau
+plot-jump Reaper Kepler-Verge
+status-report Reaper
+over

@@ -1,0 +1,10 @@
+create Dreadnought Harbinger Serpent-Nebula ThanixCannon
+create Frigate Normandy Serpent-Nebula
+create Dreadnought Sovereign Serpent-Nebula KineticBarrier
+status-report Harbinger
+attack Normandy Sovereign
+attack Harbinger Sovereign
+status-report Sovereign
+attack Harbinger Sovereign
+status-report Sovereign
+over

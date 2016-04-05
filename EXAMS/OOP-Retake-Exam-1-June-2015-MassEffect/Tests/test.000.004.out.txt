@@ -1,0 +1,20 @@
+Created Dreadnought Reaper
+--Reaper - Dreadnought
+-Location: Artemis-Tau
+-Health: 200
+-Shields: 300
+-Damage: 150
+-Fuel: 700.0
+-Enhancements: N/A
+Cannot travel directly from Artemis-Tau to Hades-Gamma
+Ship is already in Artemis-Tau
+Reaper jumped from Artemis-Tau to Kepler-Verge
+Reaper jumped from Kepler-Verge to Artemis-Tau
+Reaper jumped from Artemis-Tau to Kepler-Verge
+--Reaper - Dreadnought
+-Location: Kepler-Verge
+-Health: 200
+-Shields: 300
+-Damage: 150
+-Fuel: 340.0
+-Enhancements: N/A

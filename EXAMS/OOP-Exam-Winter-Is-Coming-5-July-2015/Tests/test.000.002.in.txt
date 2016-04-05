@@ -1,0 +1,8 @@
+spawn Mage Nakov 0 1
+spawn Mage Emi 0 3
+spawn Mage Alex 2 3
+fight
+status Alex
+status Emi
+status Nakov
+winter-came

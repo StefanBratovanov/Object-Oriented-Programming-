@@ -1,0 +1,12 @@
+spawn IceGiant Nasko 2 2
+spawn Warrior Fil 2 3
+spawn Warrior Petya 2 1
+spawn Warrior Nakov 3 2
+spawn Warrior Vlado 1 2
+fight
+status Nasko
+status Fil
+status Nakov
+status Petya
+status Vlado
+winter-came

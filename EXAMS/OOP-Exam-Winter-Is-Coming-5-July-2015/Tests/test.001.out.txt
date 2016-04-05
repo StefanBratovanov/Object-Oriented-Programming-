@@ -1,0 +1,18 @@
+Fil has spawned
+Petya has spawned
+Nasko has spawned
+Fil cast FireBreath on Nasko for 40 damage
+Fil cast Blizzard on Petya for 120 damage
+Fil has killed Petya
+Nasko cast FireBreath on Fil for 40 damage
+Fil cast FireBreath on Nasko for 40 damage
+>Fil - Mage at (3,3)
+-Health points = 40
+-Attack points = 80
+-Defense points = 40
+-Energy points = 20
+-Range = 2
+>Petya - Mage at (2,1)
+(Dead)
+>Nasko - Mage at (4,1)
+(Dead)

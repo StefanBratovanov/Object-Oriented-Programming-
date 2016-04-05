@@ -1,0 +1,8 @@
+create Cruiser Normandy Hades-Gamma
+create Cruiser Purgatory Hades-Gamma
+attack Normandy Purgatory
+status-report Purgatory
+attack Normandy Purgatory
+status-report Purgatory
+status-report Normandy
+over

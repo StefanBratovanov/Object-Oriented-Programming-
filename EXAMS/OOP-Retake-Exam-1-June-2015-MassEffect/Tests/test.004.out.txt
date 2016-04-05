@@ -1,0 +1,23 @@
+Created Dreadnought Harbinger
+Created Frigate Normandy
+Created Dreadnought Sovereign
+--Harbinger - Dreadnought
+-Location: Serpent-Nebula
+-Health: 200
+-Shields: 300
+-Damage: 200
+-Fuel: 700.0
+-Enhancements: ThanixCannon
+Normandy attacked Sovereign
+Harbinger attacked Sovereign
+--Sovereign - Dreadnought
+-Location: Serpent-Nebula
+-Health: 170
+-Shields: 0
+-Damage: 150
+-Fuel: 700.0
+-Enhancements: KineticBarrier
+Harbinger attacked Sovereign
+Sovereign has been destroyed
+--Sovereign - Dreadnought
+(Destroyed)

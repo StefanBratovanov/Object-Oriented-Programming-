@@ -1,0 +1,9 @@
+create Frigate Normandy Serpent-Nebula ThanixCannon
+create Dreadnought DestinyAscension Serpent-Nebula KineticBarrier
+attack Normandy DestinyAscension
+attack Normandy DestinyAscension
+attack Normandy DestinyAscension
+status-report DestinyAscension
+plot-jump Normandy Artemis-Tau
+status-report Normandy
+over

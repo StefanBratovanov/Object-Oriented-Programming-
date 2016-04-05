@@ -1,0 +1,28 @@
+Emi has spawned
+Asen has spawned
+Emi cast FireBreath on Asen for 20 damage
+Fil has spawned
+Petya has spawned
+Emi cast Blizzard on Asen for 100 damage
+Asen cast Stomp on Petya for 80 damage
+Asen cast Stomp on Fil for 85 damage
+Fil cast Cleave on Asen for 60 damage
+Petya cast Cleave on Asen for 60 damage
+Emi cast FireBreath on Asen for 20 damage
+Asen cast Stomp on Petya for 90 damage
+Fil cast Cleave on Asen for 60 damage
+Fil has killed Asen
+>Fil - Warrior at (3,3)
+-Health points = 95
+-Attack points = 120
+-Defense points = 70
+-Energy points = 30
+-Range = 1
+>Emi - Mage at (2,0)
+-Health points = 80
+-Attack points = 80
+-Defense points = 40
+-Energy points = 20
+-Range = 2
+>Asen - IceGiant at (2,2)
+(Dead)

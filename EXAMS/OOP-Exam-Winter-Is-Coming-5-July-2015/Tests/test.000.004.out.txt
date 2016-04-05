@@ -1,0 +1,21 @@
+Fil has spawned
+Petya has spawned
+Nasko has spawned
+>Fil - Mage at (3,3)
+-Health points = 130
+-Attack points = 80
+-Defense points = 40
+-Energy points = 120
+-Range = 2
+>Petya - Warrior at (1,2)
+-Health points = 230
+-Attack points = 120
+-Defense points = 70
+-Energy points = 60
+-Range = 1
+>Nasko - IceGiant at (0,3)
+-Health points = 350
+-Attack points = 150
+-Defense points = 60
+-Energy points = 50
+-Range = 1

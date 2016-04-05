@@ -1,0 +1,23 @@
+Fil has spawned
+Petya has spawned
+Nasko has spawned
+Fil cast Cleave on Nasko for 50 damage
+Petya cast Cleave on Nasko for 50 damage
+Nasko cast Cleave on Fil for 210 damage
+Nasko has killed Fil
+Petya cast Cleave on Nasko for 50 damage
+Nasko cast Cleave on Petya for 110 damage
+>Fil - Warrior at (3,3)
+(Dead)
+>Petya - Warrior at (2,2)
+-Health points = 70
+-Attack points = 120
+-Defense points = 70
+-Energy points = 30
+-Range = 1
+>Nasko - Warrior at (2,3)
+-Health points = 30
+-Attack points = 120
+-Defense points = 70
+-Energy points = 45
+-Range = 1

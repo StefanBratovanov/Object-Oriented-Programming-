@@ -1,0 +1,113 @@
+Electric guitar DEAN Cadillac 1980 created
+Drums Maxtone MX-203 created
+Microphone JTS JS-1T created
+Bass guitar Apollo HDQT - 6 TGY created
+Acoustic guitar Aria AFN-15 BS created
+Drums Maxtone MD-30 created
+Acoustic guitar Aria AD-20 created
+Music shop Music Shop created
+Music shop Another Shop created
+Article JTS JS-1T successfully added to music shop Music Shop
+Article JTS JS-1T successfully added to music shop Another Shop
+Article Apollo HDQT - 6 TGY successfully added to music shop Music Shop
+Article Maxtone MX-203 successfully added to music shop Another Shop
+Article DEAN Cadillac 1980 successfully added to music shop Music Shop
+The article Aria AFN-15 does not exist
+The article No Such Thing does not exist
+Article Maxtone MD-30 successfully added to music shop Another Shop
+Article Aria AD-20 successfully added to music shop Another Shop
+===== Music Shop =====
+----- Microphones -----
+= JTS JS-1T =
+Price: $272.00
+Cable: yes
+----- Electric guitars -----
+= DEAN Cadillac 1980 =
+Price: $1199.90
+Color: Classic Black
+Electronic: yes
+Strings: 6
+Body wood: Mahogany
+Fingerboard wood: Rosewood
+Adapters: 2
+Frets: 22
+----- Bass guitars -----
+= Apollo HDQT - 6 TGY =
+Price: $540.99
+Color: Basswood Quilted Veneer
+Electronic: yes
+Strings: 4
+Body wood: Basswood
+Fingerboard wood: Rosewood
+===== Another Shop =====
+----- Microphones -----
+= JTS JS-1T =
+Price: $272.00
+Cable: yes
+----- Drums -----
+= Maxtone MD-30 =
+Price: $159.99
+Color: black
+Electronic: no
+Size: 35cm x 27cm
+= Maxtone MX-203 =
+Price: $215.00
+Color: Black
+Electronic: no
+Size: 55cm x 50cm
+----- Acoustic guitars -----
+= Aria AD-20 =
+Price: $320.00
+Color: Natural
+Electronic: no
+Strings: 6
+Body wood: Mahogany
+Fingerboard wood: Mahogany
+Case included: no
+String material: Steel
+The article Aria AD-20 does not exist in shop Music Shop
+Article Maxtone MX-203 successfully removed from music shop Another Shop
+===== Music Shop =====
+----- Microphones -----
+= JTS JS-1T =
+Price: $272.00
+Cable: yes
+----- Electric guitars -----
+= DEAN Cadillac 1980 =
+Price: $1199.90
+Color: Classic Black
+Electronic: yes
+Strings: 6
+Body wood: Mahogany
+Fingerboard wood: Rosewood
+Adapters: 2
+Frets: 22
+----- Bass guitars -----
+= Apollo HDQT - 6 TGY =
+Price: $540.99
+Color: Basswood Quilted Veneer
+Electronic: yes
+Strings: 4
+Body wood: Basswood
+Fingerboard wood: Rosewood
+===== Another Shop =====
+----- Microphones -----
+= JTS JS-1T =
+Price: $272.00
+Cable: yes
+----- Drums -----
+= Maxtone MD-30 =
+Price: $159.99
+Color: black
+Electronic: no
+Size: 35cm x 27cm
+----- Acoustic guitars -----
+= Aria AD-20 =
+Price: $320.00
+Color: Natural
+Electronic: no
+Strings: 6
+Body wood: Mahogany
+Fingerboard wood: Mahogany
+Case included: no
+String material: Steel

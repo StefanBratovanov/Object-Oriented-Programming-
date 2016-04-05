@@ -1,0 +1,26 @@
+Fil has spawned
+Petya has spawned
+Nasko has spawned
+Fil cast Stomp on Petya for 90 damage
+Fil cast Stomp on Nasko for 95 damage
+Petya cast Stomp on Nasko for 90 damage
+Petya cast Stomp on Fil for 95 damage
+Nasko cast Stomp on Petya for 90 damage
+Fil cast Stomp on Petya for 100 damage
+Fil cast Stomp on Nasko for 105 damage
+Petya cast Stomp on Nasko for 100 damage
+Petya has killed Nasko
+>Fil - IceGiant at (3,3)
+-Health points = 205
+-Attack points = 170
+-Defense points = 60
+-Energy points = 10
+-Range = 1
+>Petya - IceGiant at (2,2)
+-Health points = 20
+-Attack points = 165
+-Defense points = 60
+-Energy points = 20
+-Range = 1
+>Nasko - IceGiant at (2,3)
+(Dead)

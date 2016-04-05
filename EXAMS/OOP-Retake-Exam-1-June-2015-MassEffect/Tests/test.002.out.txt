@@ -1,0 +1,21 @@
+Created Cruiser Normandy
+Created Cruiser Purgatory
+Normandy attacked Purgatory
+--Purgatory - Cruiser
+-Location: Hades-Gamma
+-Health: 50
+-Shields: 100
+-Damage: 50
+-Fuel: 300.0
+-Enhancements: N/A
+Normandy attacked Purgatory
+Purgatory has been destroyed
+--Purgatory - Cruiser
+(Destroyed)
+--Normandy - Cruiser
+-Location: Hades-Gamma
+-Health: 100
+-Shields: 100
+-Damage: 50
+-Fuel: 300.0
+-Enhancements: N/A

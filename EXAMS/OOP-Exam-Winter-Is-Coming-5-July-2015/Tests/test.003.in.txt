@@ -1,0 +1,9 @@
+spawn IceGiant Fil 3 3
+spawn IceGiant Petya 2 2
+spawn IceGiant Nasko 2 3
+fight
+fight
+status Fil
+status Petya
+status Nasko
+winter-came

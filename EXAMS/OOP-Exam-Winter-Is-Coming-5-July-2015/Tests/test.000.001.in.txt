@@ -1,0 +1,8 @@
+spawn Mage Nakov 1 3
+spawn IceGiant Emi 1 0
+spawn Warrior Alex 3 1
+fight
+status Alex
+status Emi
+status Nakov
+winter-came

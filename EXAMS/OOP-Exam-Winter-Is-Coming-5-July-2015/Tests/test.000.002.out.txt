@@ -1,0 +1,21 @@
+Nakov has spawned
+Emi has spawned
+Alex has spawned
+Nakov cast FireBreath on Alex for 40 damage
+Nakov cast Blizzard on Emi for 120 damage
+Nakov has killed Emi
+Alex cast FireBreath on Nakov for 40 damage
+>Alex - Mage at (2,3)
+-Health points = 40
+-Attack points = 80
+-Defense points = 40
+-Energy points = 90
+-Range = 2
+>Emi - Mage at (0,3)
+(Dead)
+>Nakov - Mage at (0,1)
+-Health points = 40
+-Attack points = 80
+-Defense points = 40
+-Energy points = 50
+-Range = 2

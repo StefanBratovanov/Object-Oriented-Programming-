@@ -1,0 +1,36 @@
+Created Dreadnought Harbinger
+Created Frigate Normandy
+Created Cruiser SSV-Einstein
+--Harbinger - Dreadnought
+-Location: Serpent-Nebula
+-Health: 200
+-Shields: 300
+-Damage: 150
+-Fuel: 700.0
+-Enhancements: N/A
+Harbinger jumped from Serpent-Nebula to Artemis-Tau
+Not enough fuel to travel to Hades-Gamma - 220/360
+Cannot travel directly from Serpent-Nebula to Kepler-Verge
+SSV-Einstein jumped from Serpent-Nebula to Artemis-Tau
+--Harbinger - Dreadnought
+-Location: Artemis-Tau
+-Health: 200
+-Shields: 300
+-Damage: 150
+-Fuel: 650.0
+-Enhancements: N/A
+--Normandy - Frigate
+-Location: Serpent-Nebula
+-Health: 60
+-Shields: 50
+-Damage: 30
+-Fuel: 220.0
+-Enhancements: N/A
+-Projectiles fired: 0
+--SSV-Einstein - Cruiser
+-Location: Artemis-Tau
+-Health: 100
+-Shields: 100
+-Damage: 50
+-Fuel: 250.0
+-Enhancements: N/A

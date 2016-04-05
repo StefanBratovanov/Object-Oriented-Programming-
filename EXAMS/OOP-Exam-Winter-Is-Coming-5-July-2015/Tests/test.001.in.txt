@@ -1,0 +1,9 @@
+spawn Mage Fil 3 3
+spawn Mage Petya 2 1
+spawn Mage Nasko 4 1
+fight
+fight
+status Fil
+status Petya
+status Nasko
+winter-came

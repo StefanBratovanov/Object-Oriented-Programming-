@@ -1,0 +1,39 @@
+Nasko has spawned
+Fil has spawned
+Petya has spawned
+Nakov has spawned
+Vlado has spawned
+Nasko cast Stomp on Petya for 80 damage
+Nasko cast Stomp on Vlado for 85 damage
+Nasko cast Stomp on Nakov for 90 damage
+Nasko cast Stomp on Fil for 95 damage
+Fil cast Cleave on Nakov for 50 damage
+Petya cast Cleave on Nakov for 50 damage
+Petya has killed Nakov
+Vlado cast Cleave on Fil for 50 damage
+>Nasko - IceGiant at (2,2)
+-Health points = 300
+-Attack points = 170
+-Defense points = 60
+-Energy points = 10
+-Range = 1
+>Fil - Warrior at (2,3)
+-Health points = 35
+-Attack points = 120
+-Defense points = 70
+-Energy points = 45
+-Range = 1
+>Nakov - Warrior at (3,2)
+(Dead)
+>Petya - Warrior at (2,1)
+-Health points = 100
+-Attack points = 120
+-Defense points = 70
+-Energy points = 45
+-Range = 1
+>Vlado - Warrior at (1,2)
+-Health points = 95
+-Attack points = 120
+-Defense points = 70
+-Energy points = 45
+-Range = 1

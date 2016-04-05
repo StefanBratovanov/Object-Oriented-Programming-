@@ -1,0 +1,8 @@
+spawn Mage Fil 3 3
+spawn Warrior Petya 1 2
+spawn IceGiant Nasko 0 3
+toggle-effector
+status Fil
+status Petya
+status Nasko
+winter-came

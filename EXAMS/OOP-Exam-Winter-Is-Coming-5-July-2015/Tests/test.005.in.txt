@@ -1,0 +1,14 @@
+spawn Mage Fil 2 2
+spawn IceGiant Petya 0 0
+spawn Warrior Nasko 0 4
+spawn Warrior Vlado 4 0
+spawn IceGiant Emi 4 4
+fight
+fight
+fight
+move Emi 4 3
+move Emi 4 2
+move Vlado 4 1
+fight
+fight
+winter-came

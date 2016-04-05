@@ -1,0 +1,12 @@
+create Dreadnought Sovereign Kepler-Verge ExtendedFuelCells KineticBarrier
+create Dreadnought DestinyAscension Kepler-Verge ThanixCannon
+status-report Sovereign
+status-report DestinyAscension
+attack Sovereign DestinyAscension
+status-report DestinyAscension
+attack DestinyAscension Sovereign
+status-report Sovereign
+attack DestinyAscension Sovereign
+attack DestinyAscension Sovereign
+status-report Sovereign
+over

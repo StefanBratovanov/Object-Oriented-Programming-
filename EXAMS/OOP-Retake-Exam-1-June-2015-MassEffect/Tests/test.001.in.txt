@@ -1,0 +1,6 @@
+create Frigate Normandy Hades-Gamma
+create Frigate Qwib-Qwib Hades-Gamma
+attack Normandy Qwib-Qwib
+status-report Qwib-Qwib
+status-report Normandy
+over

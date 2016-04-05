@@ -1,0 +1,21 @@
+Created Dreadnought Harbinger
+Created Dreadnought Sovereign
+--Harbinger - Dreadnought
+-Location: Serpent-Nebula
+-Health: 200
+-Shields: 300
+-Damage: 150
+-Fuel: 700.0
+-Enhancements: N/A
+Harbinger attacked Sovereign
+--Sovereign - Dreadnought
+-Location: Serpent-Nebula
+-Health: 200
+-Shields: 0
+-Damage: 150
+-Fuel: 700.0
+-Enhancements: N/A
+Harbinger attacked Sovereign
+Sovereign has been destroyed
+--Sovereign - Dreadnought
+(Destroyed)

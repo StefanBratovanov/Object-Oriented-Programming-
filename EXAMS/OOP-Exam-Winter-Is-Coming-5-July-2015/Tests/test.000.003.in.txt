@@ -1,0 +1,11 @@
+spawn Mage Fil 3 3
+spawn Warrior Petya 1 2
+spawn IceGiant Nasko 0 3
+fight
+move Nasko 1 3
+move Nasko 2 3
+fight
+status Petya
+status Nasko
+status Fil
+winter-came

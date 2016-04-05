@@ -1,0 +1,8 @@
+Nasko has spawned
+Dancho has spawned
+Fil has spawned
+Nasko cast FireBreath on Fil for 20 damage
+Nasko cast Blizzard on Dancho for 90 damage
+Nasko cast FireBreath on Fil for 20 damage
+Nasko does not have enough energy to cast Blizzard
+Nasko does not have enough energy to cast Blizzard

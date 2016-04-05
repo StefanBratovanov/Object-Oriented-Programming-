@@ -1,0 +1,27 @@
+Point 1, coordinates: (10, 20, 30.5)
+Point 2, coordinates: (-5.2, 10, 80)
+Point 3, coordinates: (100, 200, 300)
+Distanse between points: 361.87712896014
+
+Point 1, coordinates: (10, 20, 30.5)
+Point 2, coordinates: (-5.2, 10, 80)
+Distanse between points: 52.7379370093294
+
+Point 1, coordinates: (10, 20, 30.5)
+Point 2, coordinates: (-5.2, 10, 80)
+Point 3, coordinates: (100, 200, 300)
+Distanse between points: 361.87712896014
+
+Point 1, coordinates: (10, 20, 30.5)
+Point 2, coordinates: (-5.2, 10, 80)
+Distanse between points: 52.7379370093294
+
+Point 1, coordinates: (10, 20, 30.5)
+Point 2, coordinates: (-5.2, 10, 80)
+Point 3, coordinates: (100, 200, 300)
+Distanse between points: 361.87712896014
+
+Point 1, coordinates: (10, 20, 30.5)
+Point 2, coordinates: (-5.2, 10, 80)
+Distanse between points: 52.7379370093294
+

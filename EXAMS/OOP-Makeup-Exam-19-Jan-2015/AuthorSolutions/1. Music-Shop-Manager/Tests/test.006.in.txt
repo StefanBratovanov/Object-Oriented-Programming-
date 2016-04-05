@@ -1,0 +1,13 @@
+CreateMusicShop[name:My Shop]
+
+CreateMicrophone[model:JS-1T;price:272.00;cable:yes;make:JTS]
+CreateAcousticGuitar[body:Basswood;model:AFN-15 BS;fingerboard:Rosewood;price:320;make:Aria;color:Sunburst;case:yes;strings:Nylon]
+CreateElectricGuitar[model:Cadillac 1980;body:Mahogany;price:1140;make:DEAN;color:Classic Black;adapters:0;frets:22;fingerboard:Rosewood]
+
+ListArticles[name:My Shop]
+
+AddArticleToShop[name:My Shop;make:JTS;model:JS-1T]
+AddArticleToShop[name:My Shop;make:DEAN;model:Cadillac 1980]
+
+ListArticles[name:My Shop]
+End

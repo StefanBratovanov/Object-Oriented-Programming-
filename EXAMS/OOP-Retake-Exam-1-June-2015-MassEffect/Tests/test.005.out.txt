@@ -1,0 +1,27 @@
+Created Dreadnought Harbinger
+Created Frigate Normandy
+Created Cruiser SSV-Einstein
+--Harbinger - Dreadnought
+-Location: Serpent-Nebula
+-Health: 200
+-Shields: 300
+-Damage: 150
+-Fuel: 700.0
+-Enhancements: N/A
+Normandy attacked Harbinger
+SSV-Einstein attacked Harbinger
+--Harbinger - Dreadnought
+-Location: Serpent-Nebula
+-Health: 120
+-Shields: 240
+-Damage: 150
+-Fuel: 700.0
+-Enhancements: N/A
+Harbinger jumped from Serpent-Nebula to Artemis-Tau
+--Harbinger - Dreadnought
+-Location: Artemis-Tau
+-Health: 120
+-Shields: 240
+-Damage: 150
+-Fuel: 650.0
+-Enhancements: N/A

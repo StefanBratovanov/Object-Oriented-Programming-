@@ -1,0 +1,9 @@
+spawn Warrior Fil 3 3
+spawn Warrior Petya 2 2
+spawn Warrior Nasko 2 3
+fight
+fight
+status Fil
+status Petya
+status Nasko
+winter-came

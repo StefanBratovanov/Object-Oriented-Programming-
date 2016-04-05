@@ -1,0 +1,23 @@
+Music shop My Shop created
+Microphone JTS JS-1T created
+Acoustic guitar Aria AFN-15 BS created
+Electric guitar DEAN Cadillac 1980 created
+===== My Shop =====
+The shop is empty. Come back soon.
+Article JTS JS-1T successfully added to music shop My Shop
+Article DEAN Cadillac 1980 successfully added to music shop My Shop
+===== My Shop =====
+----- Microphones -----
+= JTS JS-1T =
+Price: $272.00
+Cable: yes
+----- Electric guitars -----
+= DEAN Cadillac 1980 =
+Price: $1140.00
+Color: Classic Black
+Electronic: yes
+Strings: 6
+Body wood: Mahogany
+Fingerboard wood: Rosewood
+Adapters: 0
+Frets: 22

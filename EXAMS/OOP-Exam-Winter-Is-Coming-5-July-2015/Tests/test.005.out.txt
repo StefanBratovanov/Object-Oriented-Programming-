@@ -1,0 +1,19 @@
+Fil has spawned
+Petya has spawned
+Nasko has spawned
+Vlado has spawned
+Emi has spawned
+Fil cast FireBreath on Emi for 20 damage
+Fil cast Blizzard on Petya for 100 damage
+Fil cast FireBreath on Nasko for 10 damage
+Fil does not have enough energy to cast Blizzard
+Fil does not have enough energy to cast Blizzard
+Emi has moved to (4,3)
+Emi has moved to (4,2)
+Vlado has moved to (4,1)
+Fil does not have enough energy to cast Blizzard
+Vlado cast Cleave on Emi for 60 damage
+Emi cast Stomp on Vlado for 80 damage
+Fil does not have enough energy to cast Blizzard
+Vlado cast Cleave on Emi for 60 damage
+Emi cast Stomp on Vlado for 85 damage

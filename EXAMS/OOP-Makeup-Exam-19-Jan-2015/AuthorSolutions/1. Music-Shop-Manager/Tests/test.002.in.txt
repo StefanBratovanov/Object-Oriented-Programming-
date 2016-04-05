@@ -1,0 +1,3 @@
+CreateMicrophone[model:JS-1T;price:272.00;cable:yes;make:JTS]
+CreateDrums[model:MD-30;price:159.99;make:Maxtone;color:black;width:35;height:27]
+End

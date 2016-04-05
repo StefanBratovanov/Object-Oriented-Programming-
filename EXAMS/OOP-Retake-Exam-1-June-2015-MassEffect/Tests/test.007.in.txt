@@ -1,0 +1,20 @@
+create Dreadnought DestinyAscension Kepler-Verge
+create Frigate Normandy Kepler-Verge ThanixCannon ExtendedFuelCells
+create Cruiser SSV-Einstein Kepler-Verge ExtendedFuelCells
+create Dreadnought Harbinger Hades-Gamma KineticBarrier
+plot-jump Normandy Hades-Gamma
+plot-jump DestinyAscension Hades-Gamma
+plot-jump SSV-Einstein Hades-Gamma
+attack Normandy Harbinger
+attack SSV-Einstein Harbinger
+attack DestinyAscension Harbinger
+attack Harbinger SSV-Einstein
+status-report SSV-Einstein
+attack Harbinger SSV-Einstein
+plot-jump Harbinger Kepler-Verge
+status-report Harbinger
+plot-jump Normandy Kepler-Verge
+attack Normandy Harbinger
+status-report Harbinger
+status-report Normandy
+over

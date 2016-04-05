@@ -1,0 +1,62 @@
+Created Frigate Normandy
+Created Cruiser Alarei
+Created Dreadnought Sovereign
+--Alarei - Cruiser
+-Location: Hades-Gamma
+-Health: 100
+-Shields: 100
+-Damage: 50
+-Fuel: 300.0
+-Enhancements: N/A
+Normandy attacked Alarei
+--Alarei - Cruiser
+-Location: Hades-Gamma
+-Health: 70
+-Shields: 40
+-Damage: 50
+-Fuel: 300.0
+-Enhancements: N/A
+--Normandy - Frigate
+-Location: Hades-Gamma
+-Health: 60
+-Shields: 50
+-Damage: 30
+-Fuel: 220.0
+-Enhancements: N/A
+-Projectiles fired: 1
+Alarei attacked Normandy
+--Normandy - Frigate
+-Location: Hades-Gamma
+-Health: 10
+-Shields: 50
+-Damage: 30
+-Fuel: 220.0
+-Enhancements: N/A
+-Projectiles fired: 1
+Sovereign jumped from Kepler-Verge to Hades-Gamma
+Sovereign attacked Alarei
+Alarei has been destroyed
+Normandy attacked Sovereign
+Intact ships:
+--Sovereign - Dreadnought
+-Location: Hades-Gamma
+-Health: 170
+-Shields: 240
+-Damage: 150
+-Fuel: 555.0
+-Enhancements: N/A
+--Normandy - Frigate
+-Location: Hades-Gamma
+-Health: 10
+-Shields: 50
+-Damage: 30
+-Fuel: 220.0
+-Enhancements: N/A
+-Projectiles fired: 2
+Destroyed ships:
+--Alarei - Cruiser
+(Destroyed)
+Intact ships:
+N/A
+Destroyed ships:
+N/A

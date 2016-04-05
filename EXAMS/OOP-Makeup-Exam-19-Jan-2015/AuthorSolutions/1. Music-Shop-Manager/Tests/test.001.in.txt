@@ -1,0 +1,6 @@
+CreateMusicShop[name:My Music Shop]
+CreateMusicShop[name:Other Music Shop]
+CreateMusicShop[name:Another Music Shop]
+CreateMusicShop[name:Yet another]
+CreateMusicShop[name:Haven't you had enough?]
+End

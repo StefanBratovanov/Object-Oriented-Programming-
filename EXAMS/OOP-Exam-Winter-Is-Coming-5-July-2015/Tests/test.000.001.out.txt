@@ -1,0 +1,22 @@
+Nakov has spawned
+Emi has spawned
+Alex has spawned
+Nakov cast FireBreath on Alex for 10 damage
+>Alex - Warrior at (3,1)
+-Health points = 170
+-Attack points = 120
+-Defense points = 70
+-Energy points = 60
+-Range = 1
+>Emi - IceGiant at (1,0)
+-Health points = 300
+-Attack points = 150
+-Defense points = 60
+-Energy points = 50
+-Range = 1
+>Nakov - Mage at (1,3)
+-Health points = 80
+-Attack points = 80
+-Defense points = 40
+-Energy points = 90
+-Range = 2

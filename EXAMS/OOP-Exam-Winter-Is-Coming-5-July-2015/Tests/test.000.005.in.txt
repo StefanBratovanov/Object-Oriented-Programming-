@@ -1,0 +1,7 @@
+spawn Mage Nasko 2 2
+spawn Warrior Dancho 0 0
+spawn IceGiant Fil 4 4
+fight
+fight
+fight
+winter-came

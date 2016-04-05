@@ -1,0 +1,41 @@
+Created Dreadnought Sovereign
+Created Dreadnought DestinyAscension
+--Sovereign - Dreadnought
+-Location: Kepler-Verge
+-Health: 200
+-Shields: 400
+-Damage: 150
+-Fuel: 900.0
+-Enhancements: ExtendedFuelCells, KineticBarrier
+--DestinyAscension - Dreadnought
+-Location: Kepler-Verge
+-Health: 200
+-Shields: 300
+-Damage: 200
+-Fuel: 700.0
+-Enhancements: ThanixCannon
+Sovereign attacked DestinyAscension
+--DestinyAscension - Dreadnought
+-Location: Kepler-Verge
+-Health: 200
+-Shields: 0
+-Damage: 200
+-Fuel: 700.0
+-Enhancements: ThanixCannon
+DestinyAscension attacked Sovereign
+--Sovereign - Dreadnought
+-Location: Kepler-Verge
+-Health: 200
+-Shields: 200
+-Damage: 150
+-Fuel: 900.0
+-Enhancements: ExtendedFuelCells, KineticBarrier
+DestinyAscension attacked Sovereign
+DestinyAscension attacked Sovereign
+--Sovereign - Dreadnought
+-Location: Kepler-Verge
+-Health: 50
+-Shields: 0
+-Damage: 150
+-Fuel: 900.0
+-Enhancements: ExtendedFuelCells, KineticBarrier

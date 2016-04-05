@@ -1,0 +1,12 @@
+create Dreadnought Harbinger Serpent-Nebula
+create Frigate Normandy Serpent-Nebula
+create Cruiser SSV-Einstein Serpent-Nebula
+status-report Harbinger
+plot-jump Harbinger Artemis-Tau
+plot-jump Normandy Hades-Gamma
+plot-jump Normandy Kepler-Verge
+plot-jump SSV-Einstein Artemis-Tau
+status-report Harbinger
+status-report Normandy
+status-report SSV-Einstein
+over

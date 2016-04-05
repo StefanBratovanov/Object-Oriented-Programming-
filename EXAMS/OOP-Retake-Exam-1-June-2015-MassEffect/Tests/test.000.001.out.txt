@@ -1,0 +1,17 @@
+Created Frigate Normandy
+Created Dreadnought DestinyAscension
+Normandy attacked DestinyAscension
+Normandy attacked DestinyAscension
+Normandy attacked DestinyAscension
+DestinyAscension has been destroyed
+--DestinyAscension - Dreadnought
+(Destroyed)
+Normandy jumped from Serpent-Nebula to Artemis-Tau
+--Normandy - Frigate
+-Location: Artemis-Tau
+-Health: 60
+-Shields: 50
+-Damage: 80
+-Fuel: 170.0
+-Enhancements: ThanixCannon
+-Projectiles fired: 3
