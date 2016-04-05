@@ -1,0 +1,55 @@
+﻿@using Microsoft.AspNet.Identity
+@model Bookmarks.Web.ViewModels.BookmarkDetailsViewModel
+
+<h1>@Model.Title</h1>
+
+<p>@Html.DisplayNameFor(x => x.Description): @Html.DisplayFor(x => x.Description)</p>
+<p>@Html.DisplayNameFor(x => x.CategoryName): @Html.DisplayFor(x => x.CategoryName)</p>
+<p>@Html.DisplayNameFor(x => x.Url): @Html.DisplayFor(x => x.Url)</p>
+
+<div class="clearfix">
+    <div class="pull-right">
+        <span>Votes: </span><span id="votes">@(@Model.Votes.HasValue ? Model.Votes : 0)</span>
+        @using (Ajax.BeginForm("Vote", "Bookmarks", 
+            new { bookmarkId = Model.Id, userId = this.User.Identity.GetUserId() }, 
+            new AjaxOptions()
+            {
+                HttpMethod = "POST",
+                InsertionMode = InsertionMode.Replace,
+                UpdateTargetId = "votes"
+            }))
+        {
+            @Html.AntiForgeryToken()
+            <input type="submit" name="submit" value="+"/>
+        }
+    </div>
+</div>
+
+<h2>Comments</h2>
+<div id="comments">
+    @Html.DisplayFor(x => x.Comments)
+</div>
+
+@using (Ajax.BeginForm("AddComment", "Bookmarks", new { bookmarkId = Model.Id }, new AjaxOptions()
+{
+    HttpMethod = "POST",
+    InsertionMode = InsertionMode.InsertAfter,
+    UpdateTargetId = "comments",
+    OnSuccess = "onSuccess"
+}))
+{
+    @Html.AntiForgeryToken()
+    
+    <textarea id="content" name="content"></textarea>
+    <input type="submit" name="submit" value="Add comment" />
+}
+
+@section scripts {
+    @Scripts.Render("~/bundles/ajax")
+
+    <script>
+        function onSuccess() {
+            $('#content').val('');
+        }
+    </script>
+}

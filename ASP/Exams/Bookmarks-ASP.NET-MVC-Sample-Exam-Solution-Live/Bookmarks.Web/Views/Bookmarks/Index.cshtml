@@ -1,0 +1,16 @@
+﻿@using PagedList
+@using PagedList.Mvc
+@model IPagedList<Bookmarks.Web.ViewModels.BookmarkViewModel>
+
+@{
+    ViewBag.Title = "All Bookmarks";
+}
+
+<h2>@ViewBag.Title</h2>
+<div>
+    @Html.DisplayFor(x => x)
+</div>
+
+<div>
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+</div>
