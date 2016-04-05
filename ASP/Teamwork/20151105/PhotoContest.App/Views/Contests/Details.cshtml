@@ -1,0 +1,183 @@
+﻿@using Microsoft.AspNet.Identity
+@using PhotoContest.Models.Enums
+@using Microsoft.AspNet.Identity
+@model PhotoContest.App.ViewModels.ContestDetailsViewModel
+@{
+    ViewBag.Title = "Details";
+}
+
+<h3>@Model.Title</h3>
+
+@{
+    if (Model.Status == ContestStatus.Dismissed)
+    {
+        <h4> Dismissed </h4>
+    }
+}
+
+<div class="col-lg-4">
+    <div>
+        <p>@Html.DisplayNameFor(x => x.Description): @Html.DisplayFor(x => x.Description)</p>
+        <p>@Html.DisplayNameFor(x => x.Creator): @Html.DisplayFor(x => x.Creator)</p>
+        <p>@Html.DisplayNameFor(x => x.DateCreated): @Html.DisplayFor(x => x.DateCreated)</p>
+        @{
+            if (Model.DeadLineStrategy == DeadLineStrategy.ByTime)
+            {
+                <p>End: @String.Format("{0:M/d/yyyy}", @Model.DateEnd)</p>
+            }
+            else
+            {
+                <p> Participants: @Model.Participants.Count() / @Model.MaximumParticipants</p>
+            }
+        }
+    </div>
+
+    <div class="col-lg-4">
+        @{
+            if (Model.Status == ContestStatus.Finished)
+            {
+                Html.RenderPartial("_WinnersPartial", Model.Winners);
+            }
+            else
+            {
+                Html.RenderPartial("_ParticipantsPartial", Model.Participants);
+            }
+        }
+    </div>
+</div>
+
+@if (Request.IsAuthenticated &&
+    Model.Creator == this.User.Identity.Name &&
+    Model.ParticipationStrategy == ParticipationStrategy.Closed)
+{
+    @Html.Partial("_InvitationPartial")
+}
+
+<div class="row">
+    @{
+        if (Request.IsAuthenticated &&
+            this.User.Identity.GetUserId() == Model.CreatorId &&
+            Model.Status == ContestStatus.Active)
+        {
+            <hr />
+            @Html.ActionLink("Edit", "Edit", "Contests", new { id = Model.Id }, new { @class = "btn btn-info btn" });
+            @Html.ActionLink("Finalize", "Finalize", "Contests", new { id = Model.Id }, new { @class = "btn btn-warning btn" });
+            @Html.ActionLink("Dismiss", "Dismiss", "Contests", new { id = Model.Id }, new { @class = "btn btn-danger btn" });
+        }
+
+        if (Request.IsAuthenticated
+        && Model.ParticipationStrategy == ParticipationStrategy.Open
+        && !(Model.Participants.Any(x => x.Id == this.User.Identity.GetUserId()))
+        && Model.Status == ContestStatus.Active
+        && Model.CreatorId != this.User.Identity.GetUserId())
+        {
+            @Html.ActionLink("Participate", "Participate", "Contests", new { contestId = @Model.Id }, new { @class = "btn btn-success btn-sm" })
+        }
+
+    }
+</div>
+
+@if (Request.IsAuthenticated &&
+    this.ViewBag.HasUserPartisipate &&
+    (Model.Status == ContestStatus.Active || Model.Status == ContestStatus.ParticipationClosed))
+{
+    <h4> Upload Your photo </h4>
+
+    using (Html.BeginForm("UploadImage", "Image", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken()
+        @Html.TextBox("image", new { }, new { type = "file" })
+        <input type="hidden" value="@Model.Id" name="contestId" />
+        <input type="submit" class="btn btn-primary" value="Upload" />
+    }
+}
+
+// Make Render Photo Partial and render photos for active photos or finished contest
+
+<div id="photos">
+    <h2>Photos</h2>
+
+    @{
+        if (Model.Photos.Any())
+        {
+            foreach (var photo in Model.Photos)
+            {
+                @Html.Action("GetImage", "Image", new { photoId = photo.Id });
+            }
+        }
+        else
+        {
+            <span> No photos yet. </span>
+        }
+    }
+</div>
+
+@section scripts
+{
+
+    <script>
+        function onVoteSuccess(id) {
+            var buttonDiv = $("#vote-button-" + id);
+            buttonDiv.empty();
+        }
+
+        $(document).ready(function() {
+
+            function inviteUser(senderName, receiverName, contestId) {
+                $.ajax({
+                    url: '/Notifications/Invite',
+                    type: "post",
+                    dataType: 'text',
+                    data: {
+                        senderName: senderName,
+                        receiverName: receiverName,
+                        contestId: contestId
+                    },
+                    success: function(data) {
+                        $(receiverName).remove();
+                        
+
+                        
+                    },
+                    error: function(data) {
+
+                    }
+                });
+            }
+
+            $('#search').keyup(function(e) {
+                var searchQuery = $('#search').val();
+                $.getJSON("/Notifications/SearchUser", {
+                    query: searchQuery
+                },
+                    function(data) {
+
+                        var div = $('#users');
+                        var ul = $('<ul>');
+                        $(div).html('');
+                        $.each(data, function(i, user) {
+                            var li = $('<li>', { id: user.Id, text: user.UserName, class: "invites" });
+                            var button = $('<input>', { type: "button", id: user.UserName, value: "Invite" });
+                            $(button).click(function() {
+                                var owner = $("#userName").text();
+
+                                inviteUser(owner, user.UserName, @Model.Id);
+                            });
+                            button.appendTo(li);
+                            li.appendTo(ul);
+
+                        });
+                        ul.appendTo(div);
+
+                        @*$('input[type="button"][value="Invite"]').click(function () {
+                            inviteUser("iii", "sss", @Model.Id);
+                        });*@
+                    });
+
+            });
+        });
+
+    </script>
+}
+
+

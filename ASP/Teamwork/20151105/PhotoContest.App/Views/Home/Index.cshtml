@@ -1,0 +1,22 @@
+﻿@model IEnumerable<PhotoContest.App.ViewModels.ContestViewModel>
+@{
+    ViewBag.Title = "Pinarcor Photo Contest";
+}
+
+<div class="jumbotron">
+    <h2>Welcome to Pinarcor Photo Contest Site!</h2>
+    <h3>Give us Your best photo and win prizes!</h3>
+</div>
+<h2> Current contests </h2>
+
+<div class="row">
+    @Html.Action("Active", "Contests")
+</div>
+
+<div class="clearfix">
+    <div class="pull-right">
+        @Html.ActionLink("See past contests", "Past", "Contests", null, new { @class = "btn btn-info" })
+    </div>
+</div>
+
+

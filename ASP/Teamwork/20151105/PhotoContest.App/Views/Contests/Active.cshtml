@@ -1,0 +1,15 @@
+﻿@using Microsoft.AspNet.Identity
+@model PhotoContest.App.ViewModels.ActiveViewModel
+@{
+    ViewBag.Title = "Active Contest";
+}
+
+
+@if (Request.IsAuthenticated && Model.Notifications.Any(x => x.ReceiverId == User.Identity.GetUserId() && (!x.IsRead)))
+{
+    @Html.DisplayFor(x => x.Notifications)
+}
+
+<div class="row">
+    @Html.DisplayFor(x => x.ActiveContests)
+</div>
